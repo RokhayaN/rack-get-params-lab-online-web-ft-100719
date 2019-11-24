@@ -23,7 +23,8 @@ class Application
     end 
   end 
     elsif req.path.match(/add/)
-    Get = []
+    search_term = req.params["item"]
+    if item.include? @@items
     
       
       
